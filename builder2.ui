@@ -1,0 +1,55 @@
+<interface>
+    <object id="window" class="GtkWindow">
+        <property name="visible">True</property>
+        <property name="title">Dice Rollers</property>
+        <property name="default-width">500</property>
+        <property name="default-height">800</property>
+        <property name="border-width">10</property>
+        <child>
+        <object id="background_box" class="GtkVBox">
+            <property name="visible">True</property>
+            ##########   HBOX 1   ###########
+            <child>
+            <object id="hbox1" class="GtkHBox">
+                <property name="visible">True</property>
+    	        <child>
+	            <object id="roller_box" class="GtkBox">
+                    <property name="visible">True</property>
+                </object>
+                </child>
+    	        <child>
+	            <object id="roller_box2" class="GtkBox">
+                    <property name="visible">True</property>
+                </object>
+                </child>
+            </object>
+            </child>
+            ##########   HBOX 2   ###########
+            <child>
+            <object id="hbox_d20" class="GtkHbox">
+	        	<property name="visible">True</property>
+	      	    ########## Result Window ##########
+	            <child>
+                <object id="result" class="GtkLabel">
+		            <property name="visible">True</property>
+		            <property name="label"> -- </property>
+		        </object>
+		        </child>
+            </object>
+	        </child>
+            ##########   HBOX 3   ###########
+            <child>
+	        <object id="hbox_lvl2_b" class="GtkHBox">
+                <property name="visible">True</property>
+                ########## Quit Button ##########
+	            <child>
+	            <object id="quit" class="GtkButton">
+		            <property name="visible">True</property>
+	            </object>
+	            </child>
+	        </object>
+	        </child>
+        </object>
+        </child>
+    </object>
+</interface>

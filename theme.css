@@ -1,0 +1,58 @@
+#roller_box {
+    background-color: #000022;
+    color: #ffffdd;
+    font-family: serif;
+    font-size: 16pt;
+}
+
+#roller_button,
+#roller_button label {
+    background-color: #aaaaff;
+    color: #000000;
+    outline: none;
+}
+
+
+#roller_button:hover,
+#roller_button:hover label {
+    background-color: black;
+    color: #ffffff;
+}
+
+#roller_entry{
+    background-color: #444466;
+    color: #ddddff;
+    background-image: none;
+}
+
+#roller_entry:focus {
+    background-color: #aaaacc;
+    color: #222244;
+    caret-color: #222244;
+}
+
+#quit,
+#quit label{
+    background-color: #8888aa;
+    color: #333355;
+    font-family: serif;
+    font-size: 16pt;
+}
+
+#quit:hover,
+#quit:hover label{
+    background-color: #664444;
+    color: #eecccc;
+}
+
+#result {
+    background-color: #000022;
+    color: #ffffdd;
+    font-family: serif;
+    font-size: 24pt;
+}
+
+
+#background_box {
+    background-color: #444477;
+}
